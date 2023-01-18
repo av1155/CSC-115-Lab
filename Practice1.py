@@ -13,3 +13,19 @@ salary = wage * hours * weeks
 print('New Salary is:', salary)
 
 # With a hashtag you can make comments. A cool thing about Python is that it is very easy to understand for beginners. I have linked all of this to my GitHub repository and I am able to save my work on the cloud this way. Wage, hours, and weeks are all expressions because they yield a value. In this case, they yield the values, 20, 8, and 52. Then you can use the expression "salary" to get a result. In this new expression you can write down that wage * hours * weeks = the new salary. Print is used to print text and then show the result. In this case, I "print" the new salary.
+
+print('Hello World')
+# Print means output, text in between quotes is shown. a comma followed by an expression gives the text and the result of that expression. For example:
+print('Hello World and this is my salary', salary)
+# You can also use double quotes, specifically for text that contains single quotes, such as the word "don't". Ex:
+print("don't print")
+print(' ')
+print('    **       **')
+print('  *     *  *     *')
+print(' *       *        *')
+print(' *                *')
+print(' *                *')
+print('   *            *')
+print('     *        *')
+print('       *   *')
+print('         *')
