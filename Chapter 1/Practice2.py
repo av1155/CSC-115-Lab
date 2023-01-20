@@ -24,6 +24,8 @@ print('New salary', new_salary)
 
 print('Hello World!', end=' ')
 
-user_name = input()
+print()
+
+user_name = input('What is your name? ')
 
 print('Hello', user_name, 'and welcome to CS Online!')
