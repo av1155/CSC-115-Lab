@@ -21,3 +21,9 @@ raise_percentage = 0.05
 new_salary = current_salary + (current_salary * raise_percentage)
 
 print('New salary', new_salary)
+
+print('Hello World!', end=' ')
+
+user_name = input()
+
+print('Hello', user_name, 'and welcome to CS Online!')
