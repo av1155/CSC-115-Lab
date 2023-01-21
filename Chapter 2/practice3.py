@@ -6,6 +6,8 @@ print('Variables and assignments')
 
 print('3 2 1 Go!')
 
+print()
+
 x = 5
 y = 2
 z = x * 10
@@ -21,6 +23,8 @@ y = 12
 
 print(x, y)
 
+print()
+
 ''' The example above represents X as the sum of Y and 2; however, it shows Y as 12 because Y = 12 is the last variable in the array.'''
 
 people_with_measles = int(input('How many people have measles? '))
@@ -30,6 +34,7 @@ x = people_with_measles * 20 * 20
 print(people_with_measles, 'people with measles may cause',
       x, 'people to be infected per week')
 
+print()
 
 nickel_count = int(input('How many nickels do you have? '))
 dime_count = int(input('How many dimes do you have? '))
@@ -67,6 +72,8 @@ A floating-point literal is written with the fractional part even if that fracti
 Float is a data type for floating-point numbers.
 '''
 
+print()
+
 miles = float(input('Enter a distance in miles: '))
 
 hours_to_fly = miles / 500
@@ -76,8 +83,11 @@ print(miles, 'miles would take')
 print(hours_to_fly, 'hours to fly')
 print(hours_to_drive, 'hours to drive')
 
+print()
 
 print('2.0 to the power of 512 = ', 2.0 ** 512)
+
+print()
 
 temperature_canada_fahrenheit = float(input('Temperature in Canada: '))
 temperature_panama_fahrenheit = float(input('Temperature in Panama: '))
@@ -87,11 +97,13 @@ average_fahrenheit = (temperature_canada_fahrenheit +
 
 print(f'{average_fahrenheit:.2f}', 'is the average fahrenheit temperature.')
 
+print()
 
 print('Default output of Pi:', math.pi)
 print('Pi reduced to 4 digits after the decimal:', end=' ')
 print(f'{math.pi:.4f}')
 
+print()
 
 # Below is the Challenge Activity of the section.
 
@@ -101,4 +113,4 @@ wall_area = float(input('How many square feet do you want to paint? '))
 
 gallons_paint = wall_area / 350
 
-print(f'{gallons_paint:.3}')
+print(f'{gallons_paint:.3}', 'gallons of paint.')
