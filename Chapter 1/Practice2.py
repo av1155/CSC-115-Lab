@@ -1,11 +1,9 @@
-print('Current salary is:')
-current_salary = int(input())
+current_salary = int(input('Current salary is: '))
 print('Current salary is:', current_salary)
 
 print()
 
-print('New salary is:')
-new_salary = int(input())
+new_salary = int(input('New salary is: '))
 print('New salary is:', new_salary)
 
 # SyntaxError: The program contains invalid code that cannot be understood.
@@ -29,3 +27,5 @@ print()
 user_name = input('What is your name? ')
 
 print('Hello', user_name, 'and welcome to CS Online!')
+
+print('1.6 Computers and Programs')
