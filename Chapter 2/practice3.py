@@ -114,3 +114,5 @@ wall_area = float(input('How many square feet do you want to paint? '))
 gallons_paint = wall_area / 350
 
 print(f'{gallons_paint:.3}', 'gallons of paint.')
+
+print()
