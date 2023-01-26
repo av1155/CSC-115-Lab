@@ -32,12 +32,12 @@ print(f'{result1:.2f} {result2:.2f} {result3:.2f}')
 
 ''' 2.15 Lab: Expression for calories burned druing workout '''
 
-age = int(input())
-weight = int(input())
-heart_rate = int(input())
-time = int(input())
+age = float(input('Age? '))
+weight = float(input('Weight? '))
+heart_rate = float(input('Average heart rate? '))
+time = float(input('Time working out? '))
 
-calories_burned = (((age * 0.2757) + (weight * 0.03295) +
-                   (heart_rate * 1.0781) - 75.4991) * time) / 8.368
+calories_burned = ((age * 0.2757) + (weight * 0.03295) +
+                   (heart_rate * 1.0781) - 75.4991) * time / 8.368
 
-print('Calories:', f'{calories_burned:.2}', 'calories')
+print('Calories: 'f'{calories_burned:.2f}', 'calories')
