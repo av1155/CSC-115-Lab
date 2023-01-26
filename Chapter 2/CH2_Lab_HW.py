@@ -69,3 +69,51 @@ print(user_int, 'converted to a character is', chr(user_int))
 
 '''-----------------------------------------------------------------------------------------------------------------------------------'''
 ''' 2. '''
+
+# FIXME (1): Finish reading other items into variables, then output the three ingredients
+
+lemon_juice_cups = float(input('Enter amount of lemon juice (in cups):\n'))
+
+water_amount = float(input('Enter amount of water (in cups):\n'))
+
+agave_amount = float(input('Enter amount of agave nectar (in cups):\n'))
+
+servings_amount = float(input('How many servings does this make?\n'))
+
+print()
+
+print('Lemonade ingredients - yields', f'{servings_amount:.2f}', 'servings')
+print(f'{lemon_juice_cups:.2f}', 'cup(s) lemon juice')
+print(f'{water_amount:.2f}', 'cup(s) water')
+print(f'{agave_amount:.2f}', 'cup(s) agave nectar')
+
+print()
+
+# FIXME (2): Prompt user for desired number of servings. Convert and output the ingredients
+
+how_many = float(input('How many servings would you like to make?\n'))
+print()
+
+print('Lemonade ingredients - yields', f'{how_many:.2f}', 'servings')
+
+lemon_servings_converted = how_many / 3
+water_servings_converted = how_many / 0.375
+agave_servings_converted = how_many / 2.4
+
+print(f'{lemon_servings_converted:.2f}', 'cup(s) lemon juice')
+print(f'{water_servings_converted:.2f}', 'cup(s) water')
+print(f'{agave_servings_converted:.2f}', 'cup(s) agave nectar')
+
+print()
+# FIXME (3): Convert and output the ingredients from (2) to gallons
+
+print('Lemonade ingredients - yields', f'{how_many:.2f}', 'servings')
+
+lemon_cups_to_gallons = lemon_servings_converted / 16
+print(f'{lemon_cups_to_gallons:.2f}', 'gallon(s) lemon juice')
+
+water_cups_to_gallons = water_servings_converted / 16
+print(f'{water_cups_to_gallons:.2f}', 'gallon(s) water')
+
+agave_cups_to_gallons = agave_servings_converted / 16
+print(f'{agave_cups_to_gallons:.2f}', 'gallon(s) agave nectar')
