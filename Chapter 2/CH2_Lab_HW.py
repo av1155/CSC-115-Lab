@@ -37,7 +37,7 @@ print()
 age = float(input('Age? '))
 weight = float(input('Weight? '))
 heart_rate = float(input('Average heart rate? '))
-time = float(input('Time working out? (in minutes) '))
+time = float(input('Time working out (in minutes)? '))
 
 calories_burned = ((age * 0.2757) + (weight * 0.03295) +
                    (heart_rate * 1.0781) - 75.4991) * time / 8.368
@@ -67,8 +67,10 @@ print(user_string, user_character, user_float, user_int)
 
 print(user_int, 'converted to a character is', chr(user_int))
 
+print()
+
 '''-----------------------------------------------------------------------------------------------------------------------------------'''
-''' 2. '''
+''' 2.19 LAB*: Program: Cooking measurement converter'''
 
 # FIXME (1): Finish reading other items into variables, then output the three ingredients
 
