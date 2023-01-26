@@ -32,7 +32,7 @@ print(f'{result1:.2f} {result2:.2f} {result3:.2f}')
 print()
 
 '''-----------------------------------------------------------------------------------------------------------------------------------'''
-''' 2.15 Lab: Expression for calories burned druing workout '''
+''' 2.15 Lab: Expression for calories burned during workout '''
 
 age = float(input('Age? '))
 weight = float(input('Weight? '))
@@ -43,6 +43,8 @@ calories_burned = ((age * 0.2757) + (weight * 0.03295) +
                    (heart_rate * 1.0781) - 75.4991) * time / 8.368
 
 print('Calories burned: 'f'{calories_burned:.2f}', 'calories')
+
+print()
 
 '''-----------------------------------------------------------------------------------------------------------------------------------'''
 ''' 2.18 Lab: Warm up: Variables, input, and type conversion '''
@@ -59,6 +61,8 @@ user_string = (input('Enter string:\n'))
 
 print(user_int, user_float, user_character, user_string)
 
+print()
+
 # FIXME (2): Output the four values in reverse
 
 print(user_string, user_character, user_float, user_int)
@@ -70,7 +74,7 @@ print(user_int, 'converted to a character is', chr(user_int))
 print()
 
 '''-----------------------------------------------------------------------------------------------------------------------------------'''
-''' 2.19 LAB*: Program: Cooking measurement converter'''
+''' 2.19 Lab: Program: Cooking measurement converter'''
 
 # FIXME (1): Finish reading other items into variables, then output the three ingredients
 
