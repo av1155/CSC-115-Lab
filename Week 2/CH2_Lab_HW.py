@@ -11,6 +11,22 @@ result_3 = result_2 // div_num
 
 print('The integers when divided result in: ', result, result_2, result_3)
 
+print('or')
+
+user_num = int(input('Number 1: '))
+div_num = int(input('Number 2: '))
+
+user_num = user_num // div_num
+print(user_num, end='')
+
+user_num = user_num // div_num
+print(user_num, end='')
+
+user_num = user_num // div_num
+print(user_num, end='')
+
+print()
+
 '''-----------------------------------------------------------------------------------------------------------------------------------'''''' 2.14 Lab: Driving costs '''
 
 print()
