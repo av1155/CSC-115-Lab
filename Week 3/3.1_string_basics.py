@@ -38,4 +38,45 @@ user_number = int(input('Enter a number to use as index: '))
 print('\nThe letter at index', user_number,
       'of the alphabet is', alphabet[user_number])
 
+print()
+
 # Changing string variables and concatenarting strings
+
+''' Altering individual charcaters of a string variable is not allowed. An assignment statement must be used to update an entire string variable instead. '''
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+# change to upper case
+
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXY'
+
+print('Alphabet:', alphabet)
+
+# String Concatenation
+
+string_1 = 'Hi, '
+string_2 = 'my name '
+string_3 = 'is '
+string_4 = 'Andrea.'
+
+print(string_1 + string_2 + string_3 + string_4)
+
+street_num = '1800'
+street_name = 'Highland Dr'
+
+address = street_num + ' ' + street_name
+
+print(address)
+
+print(len(address))
+
+# Challenge Activity: 3.1.3: Concatenating Strings
+
+current_time = '2020-07-26 02:12:18:'
+
+my_city = input('What city? ')
+my_state = input('What state? ')
+
+log_entry = current_time + ' ' + my_city + ' ' + my_state
+
+print(log_entry)
