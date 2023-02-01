@@ -67,5 +67,5 @@ print(full_name)
 
 myStudents = ["Andrea Venti", "Marc Rex", "John Smith"]
 
-print(myStudents)
-print(*myStudents)
+print(myStudents)  # Prints the list as is.
+print(*myStudents)  # Prints the list without the brackets, commas and quotes.
