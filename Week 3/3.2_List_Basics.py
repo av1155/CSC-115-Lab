@@ -77,6 +77,9 @@ print(f'After pop: {the_list}')
 the_list.remove('I am the best')
 print(f'After remove: {the_list}')
 
+
+print()
+
 ''' 
 Operation	        Description
 
@@ -93,6 +96,8 @@ list.count(val)	    Count the number of occurrences of the value val in the list
 # Concatenating lists
 car_prices = [25000, 50000, 75000, 100000] + [150000]
 print(f'There are {len(car_prices)} car prices in the list, and the cheapest car is: {min(car_prices)}.\nThe most expensive is: {max(car_prices)}')
+
+print()
 
 # AVERAGE # avg_price = sum(data) / len(data)
 
