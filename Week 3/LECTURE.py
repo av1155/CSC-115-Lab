@@ -70,4 +70,11 @@ myStudents = ["Andrea Venti", "Marc Rex", "John Smith"]
 print(myStudents)  # Prints the list as is.
 print(*myStudents)  # Prints the list without the brackets, commas and quotes.
 print(*myStudents, sep=" ;"
-      )
+      )  # Prints the list and adds a bracket in between words.
+
+user_word = input()
+user_number = int(input())
+
+combine = user_word, user_number
+
+print(*combine, sep=",")
