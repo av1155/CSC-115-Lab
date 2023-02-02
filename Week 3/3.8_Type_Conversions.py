@@ -24,3 +24,32 @@ float_to_input = int(input_float)
 print("The original input was converted to a decimal number:", input_float)
 print("This number was converted from float to integer:", float_to_input)
 # Conversions from input, to float, to integer.
+
+print()
+
+# Make the list of integers provide an average in the print.
+avg_owls = 0.0
+
+num_owls_zooA = int(input())
+num_owls_zooB = int(input())
+num_owls_zooC = int(input())
+
+
+avg_owls = [num_owls_zooA, num_owls_zooB, num_owls_zooC]
+
+avg_owls = (sum(avg_owls) / len(avg_owls))
+
+
+print(f'Average owls per zoo: {int(avg_owls)}')
+
+print()
+
+# Make the normal input add them together as integers.
+total_owls = 0
+
+num_owls_A = input()
+num_owls_B = input()
+
+total_owls = int(num_owls_A) + int(num_owls_B)
+
+print(f'Number of owls: {total_owls}')
