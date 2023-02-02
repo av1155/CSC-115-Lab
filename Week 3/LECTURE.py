@@ -69,3 +69,5 @@ myStudents = ["Andrea Venti", "Marc Rex", "John Smith"]
 
 print(myStudents)  # Prints the list as is.
 print(*myStudents)  # Prints the list without the brackets, commas and quotes.
+print(*myStudents, sep=" ;"
+      )
