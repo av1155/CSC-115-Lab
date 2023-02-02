@@ -101,5 +101,3 @@ borrowers_name = 'Ryder'
 print(f"{borrowers_name}\'s loan rate is {loan_rate}")
 
 # Use \' to add the symbol ' after the value.
-
-"hi"
