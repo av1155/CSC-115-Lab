@@ -1,3 +1,28 @@
+numbers = 123456
+
+rightMost2Digits = numbers % 100
+print(rightMost2Digits)
+
+div = 123456
+
+leftMost2DigitsDiv = div // 10000
+
+print(leftMost2DigitsDiv)
+
+num_seconds = 4000
+
+num_hours = num_seconds // 3600
+
+num_seconds = num_seconds % 3600
+
+num_minutes = num_seconds // 60
+
+num_seconds = num_seconds % 60
+
+print("Hours: ", num_hours)
+print("Minutes: ", num_minutes)
+print("Seconds: ", num_seconds)
+
 div = 20 % 2
 print(div)
 div = 21 % 2
@@ -40,28 +65,44 @@ print(
 
 '''--------------------------------------------------------------------------------------------------------------------------------------------------------------'''
 
-change = int(input('Enter change: '))
+print("Chapter 2 Review - Practice Coding about Modulo Operator")
 
-num_quarters = change // 25
+change = int(input("Enter change:"))
+
+numberOfQuarters = change // 25
 change = change % 25
-num_nickels = change // 5
+
+numberOfDimes = change // 10
+change = change % 10
+
+numberOfNickels = change // 5
 change = change % 5
-num_pennies = change // 1
 
-print(num_quarters)
-print(num_nickels)
-print(num_pennies)
+numbersOfPennies = change // 1
 
-'''--------------------------------------------------------------------------------------------------------------------------------------------------------------'''
+print("The number of quarter: ", numberOfQuarters)
+print("The number of dime: ", numberOfDimes)
+print("The number of nickel: ", numberOfNickels)
+print("The number of penny: ", numbersOfPennies)
 
-first_name = input("First Name: ")
-middle_name = input("Middle Name: ")
-last_name = input("Last Name: ")
-middle_initial = middle_name[0]
+# Example of using String
+firstName = "Hien"
+middleName = "Minh"
+lastName = "Nguyen"
 
-full_name = first_name + " " + middle_name[0] + " " + last_name
+middleInitial = middleName[0]
 
-print(full_name)
+fullName = firstName + " " + middleName + " " + lastName
+
+print(fullName)
+print(middleInitial)
+
+# Example of List
+myStudent = ["Hien Nguyen", "Roger Williams", "Mirla Irias"]
+
+print(myStudent)
+print(*myStudent)
+print(*myStudent, sep=" ;")
 
 ''' --------------------------------------------------------------------------------------------------------------------------------'''
 

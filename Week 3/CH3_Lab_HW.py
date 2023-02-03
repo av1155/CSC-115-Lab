@@ -19,11 +19,13 @@ print(row1)
 ################################################################
 print()
 
-lol = 572 % 100
-print(lol)
+numbers = 123456
+rightMost2Digits = numbers % 100
+print(rightMost2Digits)
 
-lol2 = 572 // 100
-print(lol2)
+div = 123456
+leftMost2DigitsDiv = div // 10000
+print(leftMost2DigitsDiv)
 
 print()
 ################################################################
