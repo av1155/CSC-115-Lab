@@ -127,6 +127,7 @@ print(f'{water_servings_converted:.2f}', 'cup(s) water')
 print(f'{agave_servings_converted:.2f}', 'cup(s) agave nectar')
 
 print()
+
 # FIXME (3): Convert and output the ingredients from (2) to gallons
 
 print('Lemonade ingredients - yields', f'{how_many:.2f}', 'servings')
