@@ -36,7 +36,8 @@ print(f"({phone_number // 10000000}) {(phone_number % 10000000) // 10000}-{phone
 ''' 3.15 LAB: Input and formatted output: House real estate summary '''
 print()
 
-current_price = int(input())
-last_months_price = int(input())
+current_price = int(input("Enter the current price of the property: "))
+last_months_price = int(
+    input("Enter the last month's price of the property: "))
 
-print(f"This house is ${current_price}. The change is ${current_price - last_months_price} since last month.\nThe estimated monthly mortgage is ${(current_price * 0.051) / 12:.2f}.")
+print(f"This house is ${current_price}. The change is ${current_price + (- last_months_price)} since last month.\nThe estimated monthly mortgage is ${(current_price * 0.051) / 12:.2f}.")
