@@ -47,3 +47,5 @@ else:
     channel_type = 'Error'
 
 print(f"Channel type: {channel_type}")
+
+# Detecting ranges implicitly vs. explicitly
