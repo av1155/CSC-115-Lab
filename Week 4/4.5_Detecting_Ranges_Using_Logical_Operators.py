@@ -49,3 +49,37 @@ else:
 print(f"Channel type: {channel_type}")
 
 # Detecting ranges implicitly vs. explicitly
+x = int(input("Enter any number: "))
+
+if (x < 0):
+    print("Negative")
+elif (x >= 0) and (x <= 10):
+    print("0...10")
+elif (x >= 11) and (x <= 20):
+    print("11...20")
+else:
+    print("21+")
+
+# ^ This is explictly defined range ^
+
+x = int(input("Enter any number: "))
+
+if (x < 0):
+    print("Negative")
+elif (x <= 10):
+    print("0...10")
+elif (x <= 20):
+    print("11...20")
+else:
+    print("21+")
+
+# ^ This is implictly defined range ^
+
+# 4.5.1: Detect number range
+
+user_age = int(input())
+
+if (user_age >= 18) and (user_age <= 25):
+    print('Eligible')
+else:
+    print('Ineligible')
