@@ -160,3 +160,20 @@ print(f'User score: {user_score}')
 '''
 Using index to iterate through each loop you need some number that increases as you go through each iteration. you can just use user_score since it is already assigned to 0, and going to increase after each iteration by 1. You will probably say "but it is going to be increased only if there is a match!" (this is right)! but if there is mismatch you are going to break out of the loop anyways, and end the game so this it's a perfect.
 '''
+
+n = 5
+while n > 0:
+    n -= 1
+    if n == 2:
+        break  # Break is used to exit the loop
+    print(n, end=" ")
+print("\nLoop is finished!\n")
+
+
+x = 20
+while x >= 0:
+    x -= 1
+    if x == 3:
+        continue  # Continue is used to skip the rest of the code in the loop and continue with the next iteration
+    print(x, end=" ")
+print("\nLoop is finished!")
