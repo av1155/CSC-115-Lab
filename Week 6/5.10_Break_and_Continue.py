@@ -157,6 +157,8 @@ for i in simon_pattern:
 
 print(f'User score: {user_score}')
 
+print()
+
 '''
 Using index to iterate through each loop you need some number that increases as you go through each iteration. you can just use user_score since it is already assigned to 0, and going to increase after each iteration by 1. You will probably say "but it is going to be increased only if there is a match!" (this is right)! but if there is mismatch you are going to break out of the loop anyways, and end the game so this it's a perfect.
 '''
