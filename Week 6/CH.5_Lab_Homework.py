@@ -44,3 +44,18 @@ else:
     for i in range(first_num, (second_num+1), 5):
         print(i, end=" ")
 print()
+
+# 5.18 LAB: Print string in reverse
+while True:
+    text = str(input())
+
+    if text == "Done":
+        quit()
+    elif text == "done":
+        quit()
+    elif text == "d":
+        quit()
+
+    for string in reversed(text):
+        print(string, end="")
+    print()
