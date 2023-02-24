@@ -10,9 +10,9 @@ for char in list(user_text):
         count -= 1
 print(count)
 
-# # 8 minutes
+# 8 minutes
 
-# # 5.16 LAB: Password modifier
+# 5.16 LAB: Password modifier
 word = input("Enter a password: ")
 password = ""
 
@@ -33,3 +33,15 @@ for character in word:
 
 password += "!"
 print(password)
+
+# 5.17 LAB: Output range with increment of 5
+first_num = int(input("Please enter your first number: "))
+second_num = int(input("Please enter your second number: "))
+
+
+if (second_num < first_num):
+    print("Second integer can't be less than the first.", end="")
+else:
+    for i in range(first_num, (second_num+1), 5):
+        print(i, end=" ")
+print()
