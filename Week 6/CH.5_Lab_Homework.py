@@ -38,7 +38,6 @@ print(password)
 first_num = int(input("Please enter your first number: "))
 second_num = int(input("Please enter your second number: "))
 
-
 if (second_num < first_num):
     print("Second integer can't be less than the first.", end="")
 else:
