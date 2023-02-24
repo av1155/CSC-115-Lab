@@ -13,7 +13,7 @@ print()
 
 # The input below records the average daily population increase.
 avg_daily_population_increase = float(
-    input("Enter the average daily population increase: "))
+    input("Enter the average daily population increase (number will be translated to percent value, for example, 30 means 30%): "))
 # The while loop below validates the input and requests the user to input a new value if the numbers are either negative or higher than
 while (avg_daily_population_increase < 0) or (avg_daily_population_increase > 100):
     avg_daily_population_increase = float(input(
