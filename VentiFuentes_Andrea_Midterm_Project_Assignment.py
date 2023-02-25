@@ -21,12 +21,20 @@ while (avg_daily_population_increase < 0) or (avg_daily_population_increase > 10
 print()
 
 # The input below records the number of days that the organisms will be left to multiply for.
-days_to_multiply = float(
+days_to_multiply = int(
     input("Enter the number of days the organism will multiply for: "))
 while (days_to_multiply > 30) or (days_to_multiply < 0):
-    days_to_multiply = float(input(
+    days_to_multiply = int(input(
         "Negative values or values larger than 30 days are not allowed. Please re-enter the number of days the organism will be left to multiply for: "))
 print()
+
+
+for days in range(1, (days_to_multiply + 1)):
+    print(days)
+
+    result = starting_num_organisms * \
+        ((avg_daily_population_increase + 100) / 100)
+    print(result)
 
 # There have to be three inputs.
 # Validate program. Number of days has to be between 0 and 100. No negative numbers and no numbers avobe 100. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
