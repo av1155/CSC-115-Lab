@@ -41,7 +41,7 @@ second_num = int(input("Please enter your second number: "))
 if (second_num < first_num):
     print("Second integer can't be less than the first.", end="")
 else:
-    for i in range(first_num, (second_num+1), 5):
+    for i in range(first_num, (second_num + 1), 5):
         print(i, end=" ")
 print()
 
