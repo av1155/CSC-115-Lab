@@ -29,10 +29,10 @@ print()
 # The input below records the number of days that the organisms will be left to multiply for.
 days_to_multiply = int(
     input("Enter the number of days the organism will multiply for: "))
-# The while loop below validates the input and requests the user to input a new value if the numbers are either negative or larger than 30.
-while (days_to_multiply < 0) or (days_to_multiply > 30):
+# The while loop below validates the input and requests the user to input a new value if the numbers are either negative, zero, or larger than 30.
+while (days_to_multiply <= 0) or (days_to_multiply > 30):
     days_to_multiply = int(input(
-        "Negative values or values larger than 30 are not allowed. Please re-enter the number of days the organism will be left to multiply for: "))
+        "Negative values, zero, or values larger than 30 are not allowed. Please re-enter the number of days the organism will be left to multiply for: "))
 print()
 
 # The print statement below prints the table header where the days and the approximate population will be displayed.
